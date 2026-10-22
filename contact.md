@@ -5,7 +5,7 @@ description: How to reach Senior Transition Pros, whether you're a family, a pro
 permalink: /contact/
 ---
 
-<p class="lede">Email is the best way to reach us: <a href="mailto:hello@seniortransitionpros.com">hello@seniortransitionpros.com</a>. <mark class="confirm">[CONFIRM: response time promise, for example "We reply within one business day."]</mark></p>
+<p class="lede">Email is the best way to reach us: <a href="mailto:hello@seniortransitionpros.com">hello@seniortransitionpros.com</a>. We aim to reply within one business day.</p>
 
 ## Families
 

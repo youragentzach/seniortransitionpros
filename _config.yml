@@ -52,6 +52,7 @@ defaults:
 
 exclude:
   - README.md
+  - AGENTS.md
   - Gemfile
   - Gemfile.lock
   - vendor

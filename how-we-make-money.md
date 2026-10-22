@@ -14,11 +14,12 @@ permalink: /how-we-make-money/
 
 ## What providers can pay for
 
-- **Founding Pro membership:** $79 a month, locked for the first 12 months, cancel anytime. It adds featured placement <mark class="confirm">[CONFIRM: whether Pro members also get priority in matching. See charter decision 4.]</mark> and entry into the first Best of Atlanta: Senior Transitions awards cycle.
+- **Founding Pro membership:** $79 a month, locked for the first 12 months, cancel anytime. It adds featured placement on Senior Transition Pros and entry into the first Best of Atlanta: Senior Transitions awards cycle. It doesn't change who we recommend to families.
 - **Introductions, later:** we may charge providers a fee when a family chooses to share a request with them, in categories where the rules allow it. If we start, we'll say so on this page first.
 
 ## What money never buys
 
+- **A place on a family's short list.** Matches are based on what the family needs, credentials and reviews, whether or not a firm pays.
 - **A Verified badge.** Badges come only from the checks described in [how we verify](/how-we-verify/).
 - **Reviews, ratings or awards.** Those come from families and from our checks, never from payment.
 - **Your information.** We never sell family data.

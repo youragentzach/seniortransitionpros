@@ -13,7 +13,7 @@ Zach Peterson, the founder, is the author of every guide. AI tools help with res
 
 ## Expert reviewers
 
-Where a guide covers a specialist's work, we ask a practicing professional to review it, and we name them on the guide. If a reviewer is also listed on Senior Transition Pros, we say so. <mark class="confirm">[CONFIRM: reviewers are not paid.]</mark>
+Where a guide covers a specialist's work, we ask a practicing professional to review it, and we name them on the guide. If a reviewer is also listed on Senior Transition Pros, we say so. Reviewers aren't paid.
 
 ## Sources and numbers
 

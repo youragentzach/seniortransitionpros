@@ -29,7 +29,7 @@ We're verifying our first providers now. Until a firm's checks are complete, it 
 2. The firm sends its evidence, such as an insurance certificate, membership or license.
 3. We check it with the issuing association or state lookup where one exists, and keep a copy on file.
 4. A person reviews the file and approves the badge.
-5. We re-check when insurance expires and at least once a year. <mark class="confirm">[CONFIRM: re-check schedule.]</mark>
+5. We re-check when insurance expires and at least once a year.
 
 ## When a badge comes off
 

@@ -5,13 +5,13 @@ description: What information Senior Transition Pros collects, how it's used and
 permalink: /privacy/
 ---
 
-<p class="fine">Effective <mark class="confirm">[CONFIRM: effective date, after attorney review]</mark></p>
+<p class="fine">Effective October 22, 2026</p>
 
 <p class="lede">The short version: we collect only what we need to help you, we share a family's details only with the pros that family approves, and we never sell anyone's information.</p>
 
 ## Who we are
 
-Senior Transition Pros is a directory and referral service for Atlanta families. <mark class="confirm">[CONFIRM: legal entity name.]</mark> You can reach us at [hello@seniortransitionpros.com](mailto:hello@seniortransitionpros.com).
+Senior Transition Pros is a directory and referral service for Atlanta families, operated by Post Up, LLC. You can reach us at [hello@seniortransitionpros.com](mailto:hello@seniortransitionpros.com).
 
 ## What we collect
 
@@ -23,7 +23,7 @@ We don't ask for financial account numbers, medical records or government ID num
 
 ## How we collect and store it
 
-Our forms are processed by FormSubmit, a third-party form service, which delivers each submission to our email inbox. <mark class="confirm">[CONFIRM: email provider, and where intake data is stored if that changes.]</mark>
+Our forms are processed by FormSubmit, a third-party form service, which delivers each submission to our email inbox.
 
 ## How we use it
 
@@ -46,7 +46,7 @@ We don't use advertising trackers or analytics cookies on this site. Our hosting
 
 ## How long we keep it
 
-<mark class="confirm">[CONFIRM: retention period, for example "We keep family requests for 24 months, then delete them."]</mark>
+We keep a family's request for up to 24 months after our last contact with that family, then delete it. We keep a provider's information while the firm is listed and for up to 24 months after. You can ask us to delete your information sooner at any time.
 
 ## Your choices
 
