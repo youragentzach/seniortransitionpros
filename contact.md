@@ -13,7 +13,7 @@ The fastest way to get help is the [two-minute request form](/#start). Tell us w
 
 ## Providers
 
-[Claim your free profile](/#forpros), or email us with questions about verification or membership.
+[Claim your free profile](/for-pros/), or email us with questions about verification or membership.
 
 ## Partners and press
 
