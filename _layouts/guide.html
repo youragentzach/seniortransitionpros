@@ -1,0 +1,33 @@
+---
+layout: base
+---
+<main class="article">
+  <div class="eyebrow">A Senior Transition Pros guide for Atlanta families</div>
+  <h1>{{ page.title }}</h1>
+  {% assign updated = page.last_modified_at | default: page.date %}
+  <p class="fine byline">By <a href="/about/">{{ page.author | default: site.author.name }}</a>{% if page.reviewer %} &middot; Reviewed by {{ page.reviewer }}{% if page.reviewer_note %}, {{ page.reviewer_note }}{% endif %}{% endif %} &middot; Updated {{ updated | date: "%B %-d, %Y" }}</p>
+
+  {% if page.answer %}
+  <div class="answer">
+    <p class="answer-label">The short answer</p>
+    <p>{{ page.answer }}</p>
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.sources %}
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      {% for source in page.sources %}
+      <li>{% if source.url %}<a href="{{ source.url }}">{{ source.title }}</a>{% else %}{{ source.title }}{% endif %}{% if source.note %}. {{ source.note }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% include guide-cta.html %}
+
+  <p class="note">This guide is general information for Georgia families, not legal, tax, or financial advice. For probate, tax, or benefits questions, consult a Georgia attorney or other qualified professional. Read <a href="/how-we-write-our-guides/">how we write our guides</a>.</p>
+</main>

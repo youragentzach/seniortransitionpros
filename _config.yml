@@ -1,0 +1,58 @@
+# Senior Transition Pros site configuration.
+# GitHub Pages builds this site with Jekyll. Existing pages without front matter
+# (index.html, guide-cleanout-parents-house-atlanta.html) are copied as is.
+# See README.md for how guides are written, reviewed and published.
+
+title: Senior Transition Pros
+tagline: Verified help for a parent's move or estate in Atlanta
+description: >-
+  Free guides and a verified shortlist of Atlanta senior move managers, estate
+  sale companies and aging life care managers, for families handling a
+  parent's move, estate or care decisions.
+url: "https://seniortransitionpros.com"
+baseurl: ""
+lang: en_US
+
+author:
+  name: Zach Peterson
+  url: "https://seniortransitionpros.com/about/"
+
+social:
+  name: Senior Transition Pros
+  links: []
+
+# Guides live at /guides/guide-name/
+permalink: /guides/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: guides/feed.xml
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: guide
+      author: Zach Peterson
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
