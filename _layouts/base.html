@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+{% feed_meta %}
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg width="40" height="34" viewBox="0 0 40 34" aria-hidden="true"><path d="M4 20 L20 6 L36 20" fill="none" stroke="#1e3a2a" stroke-width="3" stroke-linecap="round"/><path d="M20 20c0-5 4-8 9-8 0 6-3 9-9 9z" fill="#b8892f"/><path d="M14 20v9h12v-9" fill="none" stroke="#1e3a2a" stroke-width="3" stroke-linecap="round"/></svg>
+      <span>Senior Transition Pros<small>Atlanta, Georgia</small></span>
+    </a>
+    <nav>
+      <a href="{{ '/#pros' | relative_url }}">Find a pro</a><a href="{{ '/guides/' | relative_url }}">Guides</a><a href="{{ '/#forpros' | relative_url }}">For pros</a><a href="{{ '/#start' | relative_url }}" class="btn" style="padding:9px 16px">Get help</a>
+    </nav>
+  </div>
+</header>
+
+{{ content }}
+
+<footer>
+  <div class="wrap">
+    <p><b style="color:var(--evergreen)">Senior Transition Pros</b> &middot; Atlanta, Georgia &middot; seniortransitionpros.com</p>
+    {% include footer-links.html %}
+    <p>We are a directory and referral service. We verify credentials and insurance as published by each firm and the associations above, and we remove firms that do not keep those standards. We never handle a family&rsquo;s property or money.</p>
+  </div>
+</footer>
+</body>
+</html>

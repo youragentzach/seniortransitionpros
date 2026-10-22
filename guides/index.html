@@ -1,0 +1,26 @@
+---
+title: Guides for Atlanta families
+heading: Guides for Atlanta families
+eyebrow: Free guides
+description: Plain-language Atlanta guides for families handling a parent's move, estate or care decisions, covering what it costs, what to do first, and which kind of help you need.
+permalink: /guides/
+---
+<p class="lede">What it costs, what to do first, and which kind of help you need. Each guide is written for Atlanta and Georgia families, sourced, dated and reviewed by a person.</p>
+
+<ul class="guide-list">
+  {% for post in site.posts %}
+  {% assign updated = post.last_modified_at | default: post.date %}
+  <li>
+    <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p>{{ post.description }}</p>
+    <p class="fine">{% if post.pillar %}{{ post.pillar }} guide &middot; {% endif %}Updated {{ updated | date: "%B %-d, %Y" }}</p>
+  </li>
+  {% endfor %}
+  <li>
+    <a class="title" href="/guide-cleanout-parents-house-atlanta.html">How to clean out a parent&rsquo;s house, in the right order</a>
+    <p>Secure the home, understand Georgia probate, get family claims in writing, appraise, sell, donate, clean out and list, with a one-page checklist.</p>
+    <p class="fine">Journey guide &middot; Updated October 19, 2026</p>
+  </li>
+</ul>
+
+<p class="fine">Read <a href="/how-we-write-our-guides/">how we write our guides</a>, including how we use AI and who reviews each one.</p>

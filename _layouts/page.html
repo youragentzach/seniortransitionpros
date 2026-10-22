@@ -1,0 +1,9 @@
+---
+layout: base
+---
+<main class="article">
+  {% if page.eyebrow %}<div class="eyebrow">{{ page.eyebrow }}</div>{% endif %}
+  <h1>{{ page.heading | default: page.title }}</h1>
+  {% if page.last_modified_at %}<p class="fine">Last updated {{ page.last_modified_at | date: "%B %-d, %Y" }}</p>{% endif %}
+  {{ content }}
+</main>
