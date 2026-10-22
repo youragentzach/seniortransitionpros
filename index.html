@@ -195,15 +195,16 @@
         <input name="contact_name" placeholder="Your name">
         <input name="email" placeholder="Work email" required>
         <input name="phone" placeholder="Phone (optional)">
-        <select name="category">
-          <option value="">Your category</option>
-          <option>Senior move manager</option>
-          <option>Estate sale / liquidation</option>
-          <option>Aging life care manager</option>
-          <option>Senior real estate specialist</option>
-          <option>Estate cleanout</option>
-          <option>Other</option>
-        </select>
+        <fieldset style="border:0;padding:0;margin:0;display:grid;gap:6px">
+          <legend style="font-weight:600;margin-bottom:6px">What do you do? (check all that apply)</legend>
+          <label><input type="checkbox" name="category_move_manager" value="Senior move manager"> Senior move manager</label>
+          <label><input type="checkbox" name="category_estate_sale" value="Estate sale / liquidation"> Estate sale / liquidation</label>
+          <label><input type="checkbox" name="category_life_care" value="Aging life care manager"> Aging life care manager</label>
+          <label><input type="checkbox" name="category_sres" value="Senior real estate specialist"> Senior real estate specialist</label>
+          <label><input type="checkbox" name="category_cleanout" value="Estate cleanout"> Estate cleanout</label>
+          <label><input type="checkbox" name="category_moving_shipping" value="Moving / estate shipping"> Moving / estate shipping</label>
+          <label><input type="checkbox" name="category_other" value="Other"> Other</label>
+        </fieldset>
         <input name="suburbs" placeholder="Suburbs you serve">
         <button class="btn gold" type="submit">Claim my free profile</button>
       </div>
