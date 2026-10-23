@@ -2,6 +2,11 @@
 title: "What does a senior move manager cost in Atlanta?"
 description: "What Atlanta families can expect to pay a senior move manager, how they bill, what isn't included, and the questions to ask before you sign."
 pillar: Cost
+image:
+  path: /assets/img/guides/senior-move-manager-cost-atlanta.png
+  width: 1200
+  height: 675
+  alt: "Published hourly rates for senior move managers, with our Atlanta estimate of $60 to $125"
 answer: "Expect roughly $60 to $125 an hour for a senior move manager in metro Atlanta. A full move from a house to a senior living apartment often comes to about $2,500 to $5,000, and the movers are usually a separate bill."
 sources:
   - title: "AARP: Moving as an Older Adult? A Move Manager Can Ease the Process"
@@ -44,16 +49,18 @@ Not every firm offers every service, so ask which ones are included in your quot
 
 ## Hourly rates
 
-<div class="table-scroll" markdown="1">
-
-| Source | Hourly rate | Applies to |
-| --- | --- | --- |
-| AARP, citing NASMM's member survey (2025) | $60 to $120 | Nationally, with higher rates in the Northeast and California |
-| Mary Kay Buysse of NASMM, quoted by Care.com (2025) | $90 to $125 | Large cities |
-| Same source | $50 to $60 | Smaller markets |
-| A Place for Mom (2024) | $40 to $80 | National average, per the article |
-
-</div>
+<figure class="fig rates" aria-labelledby="rates-title">
+  <p class="fig-title" id="rates-title">Published hourly rates, and our Atlanta estimate</p>
+  <div class="rr">
+    <div class="rr-row est"><p class="rr-label"><b>Our Atlanta estimate</b><small>NASMM's survey figure for the low end, its large-city figure for the high end</small></p><div class="rr-track"><span class="rr-bar" style="--lo:60;--hi:125"></span><span class="rr-v lo" style="--x:60">$60</span><span class="sr"> to </span><span class="rr-v hi" style="--x:125">$125</span></div></div>
+    <div class="rr-row"><p class="rr-label">Large cities<small>Mary Kay Buysse of NASMM, quoted by Care.com (2025)</small></p><div class="rr-track"><span class="rr-bar" style="--lo:90;--hi:125"></span><span class="rr-v lo" style="--x:90">$90</span><span class="sr"> to </span><span class="rr-v hi" style="--x:125">$125</span></div></div>
+    <div class="rr-row"><p class="rr-label">Nationally<small>AARP, citing NASMM's member survey (2025). Higher in the Northeast and California</small></p><div class="rr-track"><span class="rr-bar" style="--lo:60;--hi:120"></span><span class="rr-v lo" style="--x:60">$60</span><span class="sr"> to </span><span class="rr-v hi" style="--x:120">$120</span></div></div>
+    <div class="rr-row"><p class="rr-label">National average<small>A Place for Mom (2024)</small></p><div class="rr-track"><span class="rr-bar" style="--lo:40;--hi:80"></span><span class="rr-v lo" style="--x:40">$40</span><span class="sr"> to </span><span class="rr-v hi" style="--x:80">$80</span></div></div>
+    <div class="rr-row"><p class="rr-label">Smaller markets<small>Mary Kay Buysse of NASMM, quoted by Care.com (2025)</small></p><div class="rr-track"><span class="rr-bar" style="--lo:50;--hi:60"></span><span class="rr-v lo" style="--x:50">$50</span><span class="sr"> to </span><span class="rr-v hi" style="--x:60">$60</span></div></div>
+    <div class="rr-row rr-axis" aria-hidden="true"><p class="rr-label"></p><div class="rr-track"><span class="rr-tick" style="--x:40">$40</span><span class="rr-tick" style="--x:60">$60</span><span class="rr-tick" style="--x:80">$80</span><span class="rr-tick" style="--x:100">$100</span><span class="rr-tick" style="--x:120">$120</span></div></div>
+  </div>
+  <figcaption>Dollars per hour. Full source details are listed at the end of this guide.</figcaption>
+</figure>
 
 **Our Atlanta estimate is about $60 to $125 an hour.** Atlanta is a large metro, but it isn't one of the higher-cost regions AARP names, so we use NASMM's national survey figure for the low end and its large-city figure for the high end. We haven't yet found an Atlanta move manager that posts its rates online. As Atlanta firms share their rates with us, we'll update this range.
 

@@ -102,3 +102,50 @@ mark.confirm{background:#fbe3a6;color:#5a3d00;padding:1px 4px;border-radius:3px;
 .award h2{color:#f5efe0;margin-top:6px}
 .article .award p{color:#e9e2cf}
 .award .mark{color:var(--award-gold);letter-spacing:2.2px;text-transform:uppercase;font-size:12px;font-weight:700}
+
+/* Figures in guides: diagrams and charts. Real text, no images, brand colors only (no gold). */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.fig{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px 20px 14px;margin:24px 0}
+.article .fig-title{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;font-weight:600;color:var(--evergreen);font-size:19px;line-height:1.3;margin:0 0 12px}
+.fig figcaption{font-size:14px;color:var(--muted);margin-top:10px}
+
+/* Range chart: one row per source, a bar from the low to the high figure. Scale runs $25 to $140. */
+.rr-row{display:grid;grid-template-columns:210px 1fr;align-items:center;gap:14px;padding:7px 0}
+.rr-row.est{background:#eef3ee;border-radius:8px;padding:9px 10px;margin:0 -10px 4px}
+.article .rr-label{margin:0;font-size:15px;line-height:1.3;color:var(--ink)}
+.rr-label small{display:block;font-size:13px;color:var(--muted);margin-top:1px}
+.rr-track{position:relative;height:30px;
+  background-image:linear-gradient(90deg,transparent calc(13.04% - .5px),#e8e1d2 calc(13.04% - .5px),#e8e1d2 calc(13.04% + .5px),transparent calc(13.04% + .5px)),
+    linear-gradient(90deg,transparent calc(30.43% - .5px),#e8e1d2 calc(30.43% - .5px),#e8e1d2 calc(30.43% + .5px),transparent calc(30.43% + .5px)),
+    linear-gradient(90deg,transparent calc(47.83% - .5px),#e8e1d2 calc(47.83% - .5px),#e8e1d2 calc(47.83% + .5px),transparent calc(47.83% + .5px)),
+    linear-gradient(90deg,transparent calc(65.22% - .5px),#e8e1d2 calc(65.22% - .5px),#e8e1d2 calc(65.22% + .5px),transparent calc(65.22% + .5px)),
+    linear-gradient(90deg,transparent calc(82.61% - .5px),#e8e1d2 calc(82.61% - .5px),#e8e1d2 calc(82.61% + .5px),transparent calc(82.61% + .5px))}
+.rr-bar{position:absolute;top:50%;height:6px;margin-top:-3px;border-radius:3px;background:#6f7d75;
+  left:calc((var(--lo) - 25) / 115 * 100%);width:calc((var(--hi) - var(--lo)) / 115 * 100%)}
+.rr-bar::before,.rr-bar::after{content:"";position:absolute;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:inherit;box-shadow:0 0 0 2px #fff}
+.rr-bar::before{left:-6px}
+.rr-bar::after{right:-6px}
+.est .rr-bar{background:var(--evergreen);height:8px;margin-top:-4px}
+.est .rr-bar::before,.est .rr-bar::after{width:14px;height:14px;margin-top:-7px;box-shadow:0 0 0 2px #eef3ee}
+.est .rr-bar::before{left:-7px}
+.est .rr-bar::after{right:-7px}
+.rr-v{position:absolute;top:50%;transform:translateY(-50%);font-size:13px;line-height:1;color:var(--ink);white-space:nowrap;font-variant-numeric:tabular-nums}
+.rr-v.lo{right:calc(100% - (var(--x) - 25) / 115 * 100% + 12px)}
+.rr-v.hi{left:calc((var(--x) - 25) / 115 * 100% + 12px)}
+.est .rr-v{font-weight:700;color:var(--evergreen);font-size:14px}
+.rr-axis{padding-top:2px}
+.rr-axis .rr-track{height:20px;background:none}
+.rr-tick{position:absolute;top:2px;left:calc((var(--x) - 25) / 115 * 100%);transform:translateX(-50%);font-size:12px;color:var(--muted)}
+@media(max-width:620px){
+  .fig{padding:16px 14px 12px}
+  .rr-row{grid-template-columns:1fr;gap:2px}
+  .rr-row.est{margin:0 -6px 4px;padding:9px 6px}
+  .rr-axis .rr-label{display:none}
+}
+
+/* Founder photo: About page and guide bylines. A real photo of Zach, used with his permission. */
+.byline-photo{width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin:-3px 8px 0 0}
+.founder{display:flex;gap:18px;align-items:center;margin:14px 0 8px}
+.founder img{width:132px;height:132px;flex:none;border-radius:12px;object-fit:cover;border:1px solid var(--line)}
+.article .founder p{margin:0}
+@media(max-width:620px){.founder{gap:14px}.founder img{width:96px;height:96px}}

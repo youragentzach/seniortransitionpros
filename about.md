@@ -13,7 +13,10 @@ When a parent downsizes, moves to senior living or passes away, a family usually
 
 ## Who runs it
 
-I'm Zach Peterson, the founder, and I'm based in the north Atlanta suburbs. Senior Transition Pros is operated by Post Up, LLC.
+<div class="founder">
+  <img src="/assets/img/zach-peterson.jpg" alt="Zach Peterson, founder of Senior Transition Pros" width="132" height="132">
+  <p>I'm Zach Peterson, the founder, and I'm based in the north Atlanta suburbs. Senior Transition Pros is operated by Post Up, LLC.</p>
+</div>
 
 I also hold a Georgia real estate license. Senior specialist realtors aren't listed here yet. Before they are, we'll publish exactly how any referral arrangement works and how conflicts of interest are handled.
 
