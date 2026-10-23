@@ -6,16 +6,22 @@
 {% seo %}
 {% feed_meta %}
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header>
   <div class="wrap bar">
     <a class="brand" href="{{ '/' | relative_url }}">
       <svg width="40" height="34" viewBox="0 0 40 34" aria-hidden="true"><path d="M4 20 L20 6 L36 20" fill="none" stroke="#1e3a2a" stroke-width="3" stroke-linecap="round"/><path d="M20 20c0-5 4-8 9-8 0 6-3 9-9 9z" fill="#b8892f"/><path d="M14 20v9h12v-9" fill="none" stroke="#1e3a2a" stroke-width="3" stroke-linecap="round"/></svg>
       <span>Senior Transition Pros<small>Atlanta, Georgia</small></span>
     </a>
+    <a href="{{ '/#start' | relative_url }}" class="btn mcta">Get help</a>
     <nav>
-      <a href="{{ '/#pros' | relative_url }}">Find a pro</a><a href="{{ '/guides/' | relative_url }}">Guides</a><a href="{{ '/#forpros' | relative_url }}">For pros</a><a href="{{ '/#start' | relative_url }}" class="btn" style="padding:9px 16px">Get help</a>
+      <a href="{{ '/#pros' | relative_url }}">Types of help</a><a href="{{ '/guides/' | relative_url }}">Guides</a><a href="{{ '/for-pros/' | relative_url }}">For pros</a><a href="{{ '/#start' | relative_url }}" class="btn" style="padding:9px 16px">Get help</a>
     </nav>
   </div>
 </header>
