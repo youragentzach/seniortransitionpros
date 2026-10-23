@@ -67,6 +67,7 @@ Don't state these publicly until Zach decides.
 - General information only. No legal, tax or financial advice. Point to a Georgia attorney or other professional.
 - Brand voice: plain, gentle, specific. Calm, established, warm, local, competent.
 - Brand look: Evergreen and Ivory, with the tokens in `assets/css/site.css`. Gold is reserved for the Verified badge and Best of Atlanta. No stock photos of smiling seniors.
+- Images: diagrams and charts built from real text (like the figures in both guides) are welcome where a guide has a sequence or a comparison. Photos only of real people with their permission, such as Zach. No stock photos of people, no AI-generated people, and no decorative images.
 
 ## How the site is built
 
@@ -78,6 +79,7 @@ Don't state these publicly until Zach decides.
 - Guides live in `_posts/YYYY-MM-DD-slug.md` and are served at `/guides/slug/`. Drafts in `_drafts/` are never published. Jekyll skips future-dated posts, so a post appears only after a push on or after its date.
 - A new site page is a Markdown file with front matter (`title`, `heading`, `description`, `permalink`). It uses the `page` layout by default.
 - `README.md` and `AGENTS.md` are excluded from the published site.
+- Every indexable page allows large image previews (`max-image-preview:large`), set in `_layouts/base.html`, `index.html` and the cleanout guide. Pages marked `noindex` get `noindex` instead.
 - Forms post to FormSubmit, which delivers to hello@modernedgelabs.com. The family form is on the home page and sends people to `/thanks/`; the claim form is on `/for-pros/` and sends people to `/thanks-pro/` (both via `_next`). FormSubmit's captcha is off (`_captcha=false`) and a `_honey` honeypot field catches bots instead. The family form sends `email` and `phone` as separate fields and requires at least one. After any form or plumbing change, verify delivery end to end. On October 21 both forms were live but undelivered for about two days.
 
 ## Publishing a guide
@@ -85,8 +87,9 @@ Don't state these publicly until Zach decides.
 1. Draft it in `_drafts/` from `_drafts/guide-template.md`, with sources in the front matter.
 2. Open a pull request with a one-line summary of the guide's claims and sources.
 3. After Zach approves, move it to `_posts/YYYY-MM-DD-slug.md` and merge on the publish date.
-4. Confirm the GitHub Pages build succeeded, load the page, and submit the URL in Google Search Console.
-5. Update the calendar in the blog plan, and tell the operating agent the guide is ready for outreach.
+4. Give the guide its own share image: 1200 by 675 pixels, showing the guide's diagram or chart with its title, never the logo card alone. Save it as `assets/img/guides/<slug>.png` and set `image` in the front matter (see the template).
+5. Confirm the GitHub Pages build succeeded, load the page, and submit the URL in Google Search Console.
+6. Update the calendar in the blog plan, and tell the operating agent the guide is ready for outreach.
 
 ## Before every merge
 

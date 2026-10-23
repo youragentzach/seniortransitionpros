@@ -5,6 +5,11 @@
 title: "What does a senior move manager cost in Atlanta?"
 description: "One or two sentences for search results and the guides page."
 pillar: Cost            # Cost, Journey, Decision or Family
+image:                  # The guide's own 1200x675 share image. See AGENTS.md, Publishing a guide
+  path: /assets/img/guides/short-slug.png
+  width: 1200
+  height: 675
+  alt: "What the image shows, in one sentence"
 answer: "Two plain sentences that answer the question directly, with the key number."
 reviewer:               # Optional: "Jane Smith, Example Senior Moves"
 reviewer_note:          # Optional: "a listed provider on Senior Transition Pros"
