@@ -38,6 +38,7 @@ Use these exactly. If something here looks wrong, ask Zach. Don't improvise.
 | Contact | hello@seniortransitionpros.com. We aim to reply within one business day | Oct 22, 2026 |
 | Families | Never pay. Their details go only to pros the family approves, and the family is told who received them | Oct 19, 2026 |
 | Founding Pro | $79 a month, locked for 12 months, cancel anytime. Buys featured placement and entry into the first Best of Atlanta cycle. **It never changes matching.** Short lists are based on need, credentials and reviews. Don't promise "priority matching" in any outreach | Oct 22, 2026 |
+| Move manager rates | $60 to $125 an hour in metro Atlanta. Our estimate from NASMM figures, sourced in the move manager cost guide. Use it everywhere | Oct 22, 2026 |
 | Paid introductions | Not offered yet. They must be announced on /how-we-make-money/ before they start | Oct 22, 2026 |
 | Aging life care managers | Subscription and advertising only. Never per lead or per referral. Say so in writing in every pitch to them | Oct 19, 2026 |
 | Realtors | Not listed yet. No referral fee arrangement without a licensed Georgia brokerage structure Zach approves | Oct 19, 2026 |

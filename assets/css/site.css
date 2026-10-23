@@ -39,7 +39,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 44px;color:var(--muted);f
 .answer{background:#fff;border:1px solid var(--line);border-left:4px solid var(--evergreen);border-radius:8px;padding:16px 20px;margin:22px 0}
 .answer p{margin:6px 0}
 .answer .answer-label{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 4px}
-.checklist{list-style:none;padding:0;margin:14px 0}
+.article .checklist{list-style:none;padding:0;margin:14px 0}
 .checklist li{border:1px solid var(--line);background:#fffdf8;border-radius:8px;padding:10px 14px;margin:8px 0;font-size:16px}
 .checklist li::before{content:"\2610  ";color:var(--gold);font-weight:700}
 .table-scroll{overflow-x:auto}
