@@ -12,7 +12,7 @@ Owner: Zach Peterson. Last updated October 22, 2026.
 | Who | Owns | Does not touch |
 | --- | --- | --- |
 | Zach Peterson | Everything. Approves every change to a public page or public claim | |
-| Meta Muse agent (operating agent) | `index.html`, the family intake and provider claim forms, outreach, the weekly SEO and UI audit | Guides, guide templates, trust pages. Flag problems in a pull request comment instead |
+| Meta Muse agent (operating agent) | `index.html`, the family intake form, the provider claim form (on `/for-pros/`, in `for-pros.md`), outreach, the weekly SEO and UI audit | Guides, guide templates, trust pages. Flag problems in a pull request comment instead |
 | Claude (blog) | `guides/`, `_posts/`, `_drafts/`, `_layouts/`, `_includes/`, `assets/css/site.css`, the cleanout guide, the trust pages | `index.html` and the forms, except footer and nav links Zach has approved |
 | Any future agent | Nothing until Zach assigns a lane in writing. Add the lane to this table in a pull request | Everything outside its assigned lane |
 
@@ -73,10 +73,11 @@ Don't state these publicly until Zach decides.
 - `index.html` and `guide-cleanout-parents-house-atlanta.html` have no front matter, so Jekyll copies them unchanged. They carry their own inline styles and their own footer and nav.
 - Pages with front matter use `_layouts/base.html`, plus `page.html` or `guide.html`, and the shared `assets/css/site.css`.
 - Footer links live in three places: `_includes/footer-links.html`, `index.html` and the cleanout guide. Update all three together.
+- The header nav (Types of help, Guides, For pros, Get help) also lives in three places: `_layouts/base.html`, `index.html` and the cleanout guide. Update all three together.
 - Guides live in `_posts/YYYY-MM-DD-slug.md` and are served at `/guides/slug/`. Drafts in `_drafts/` are never published. Jekyll skips future-dated posts, so a post appears only after a push on or after its date.
 - A new site page is a Markdown file with front matter (`title`, `heading`, `description`, `permalink`). It uses the `page` layout by default.
 - `README.md` and `AGENTS.md` are excluded from the published site.
-- Forms post to FormSubmit, which delivers to hello@modernedgelabs.com. After any form or plumbing change, verify delivery end to end. On October 21 both forms were live but undelivered for about two days.
+- Forms post to FormSubmit, which delivers to hello@modernedgelabs.com. The family form is on the home page and sends people to `/thanks/`; the claim form is on `/for-pros/` and sends people to `/thanks-pro/` (both via `_next`). FormSubmit's captcha is off (`_captcha=false`) and a `_honey` honeypot field catches bots instead. The family form sends `email` and `phone` as separate fields and requires at least one. After any form or plumbing change, verify delivery end to end. On October 21 both forms were live but undelivered for about two days.
 
 ## Publishing a guide
 
