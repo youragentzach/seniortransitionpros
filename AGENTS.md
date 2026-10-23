@@ -79,6 +79,7 @@ Don't state these publicly until Zach decides.
 - Guides live in `_posts/YYYY-MM-DD-slug.md` and are served at `/guides/slug/`. Drafts in `_drafts/` are never published. Jekyll skips future-dated posts, so a post appears only after a push on or after its date.
 - A new site page is a Markdown file with front matter (`title`, `heading`, `description`, `permalink`). It uses the `page` layout by default.
 - `README.md` and `AGENTS.md` are excluded from the published site.
+- Zach's headshot, supplied by him on Oct 23, 2026, is on /about/ (`assets/img/zach-peterson.jpg`) and beside the byline on every guide by him (`assets/img/zach-peterson-96.jpg`, set in `_layouts/guide.html` and in the cleanout guide).
 - Every indexable page allows large image previews (`max-image-preview:large`), set in `_layouts/base.html`, `index.html` and the cleanout guide. Pages marked `noindex` get `noindex` instead.
 - Forms post to FormSubmit, which delivers to hello@modernedgelabs.com. The family form is on the home page and sends people to `/thanks/`; the claim form is on `/for-pros/` and sends people to `/thanks-pro/` (both via `_next`). FormSubmit's captcha is off (`_captcha=false`) and a `_honey` honeypot field catches bots instead. The family form sends `email` and `phone` as separate fields and requires at least one. After any form or plumbing change, verify delivery end to end. On October 21 both forms were live but undelivered for about two days.
 
