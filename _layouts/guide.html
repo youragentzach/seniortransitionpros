@@ -6,7 +6,7 @@ layout: base
   <h1>{{ page.title }}</h1>
   {% assign updated = page.last_modified_at | default: page.date %}
   {% assign byline_author = page.author | default: site.author.name %}
-  <p class="fine byline">{% if byline_author == "Zach Peterson" %}<img class="byline-photo" src="/assets/img/zach-peterson-96.jpg" alt="" width="32" height="32">{% endif %}By <a href="/about/">{{ byline_author }}</a>{% if page.reviewer %} &middot; Reviewed by {{ page.reviewer }}{% if page.reviewer_note %}, {{ page.reviewer_note }}{% endif %}{% endif %} &middot; Updated {{ updated | date: "%B %-d, %Y" }}</p>
+  <p class="fine byline">{% if byline_author == "Zach Peterson" %}<img class="byline-photo" src="/assets/img/zach-peterson-96.jpg" alt="" width="48" height="48">{% endif %}By <a href="/about/">{{ byline_author }}</a>{% if page.reviewer %} &middot; Reviewed by {{ page.reviewer }}{% if page.reviewer_note %}, {{ page.reviewer_note }}{% endif %}{% endif %} &middot; Updated {{ updated | date: "%B %-d, %Y" }}</p>
 
   {% if page.answer %}
   <div class="answer">
