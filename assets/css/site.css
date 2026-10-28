@@ -144,7 +144,7 @@ mark.confirm{background:#fbe3a6;color:#5a3d00;padding:1px 4px;border-radius:3px;
 }
 
 /* Founder photo: About page and guide bylines. A real photo of Zach, used with his permission. */
-.byline-photo{width:32px;height:32px;border-radius:50%;object-fit:cover;vertical-align:middle;margin:-3px 8px 0 0}
+.byline-photo{width:48px;height:48px;border-radius:50%;object-fit:cover;vertical-align:middle;margin:-3px 8px 0 0}
 .founder{display:flex;gap:18px;align-items:center;margin:14px 0 8px}
 .founder img{width:132px;height:132px;flex:none;border-radius:12px;object-fit:cover;border:1px solid var(--line)}
 .article .founder p{margin:0}
