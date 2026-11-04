@@ -100,8 +100,3 @@ Do the rough math on your house. If the contents would plausibly gross $15,000 o
 
 When you are ready to compare companies, our Atlanta estate sale company listings show who serves your suburb, and the intake form on this site will match your situation to pros in the right order, free for families, always.
 
-## Sources
-
-- HomeLight, "6 Top Estate Sale Companies in Atlanta": Atlanta commission range, average gross, expected minimums, and net examples.
-- PartingPoint, "How Estate Sales Work": national commission range and the EstateSales.org company poll, what the commission covers, and the no-money-up-front rule.
-- LegalClarity, "Are Estate Sales Worth It?": how rates tier by estate type, common extra deductions, and typical payout timing.
